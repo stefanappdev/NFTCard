@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*desktop*/
+
+.main-app{
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#description{
+    display: grid;
+    grid-template-areas:
+    "p p"
+    "ETH days";
+}
+
+#footer{
+    display: inline-flex;
+}
+
+
+
+figcaption{
+    color:#ffffff;
+}
