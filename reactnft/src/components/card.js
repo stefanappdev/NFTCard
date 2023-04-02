@@ -40,7 +40,7 @@ function Card() {
                               3 days left
                             </span>
                           
-                      </div>
+                    </div>
 
                       <br/>
 

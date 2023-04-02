@@ -1,5 +1,5 @@
 
-*{
+*{ -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -7,7 +7,9 @@
 /*desktop*/
 
 .main-app{
-    background-color:hsl(217, 54%, 11%) ;
+    background-color:hsl(216, 44%, 19%) ;
+    height:100vh;
+    width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,16 +17,43 @@
    
 }
 
+.nftcard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    height: 95%;
+    padding-right: 10px;
+    width:29%;
+    background-color: hsl(215, 60%, 24%);
+}
+
+
+figure{
+    height:85%;
+    width: 85%;
+    margin-bottom: -20px;
+    padding-left:20px ;
+    padding-top: 30px;
+    
+ 
+}
 
 figure>img{
-    height:200px;
-   width:200px;
+    
+    height:90%;
+    width:95%;
+    border-radius: 10px;
 }
 
 
 
 figcaption{
     color:hsl(0, 0%, 100%);
+    margin-left:-3% ;
+    
+
 }
 
 
@@ -47,6 +76,8 @@ figcaption:hover{
 
 #description>p{
     color:hsl(215, 51%, 70%);
+    padding-left: 12%;
+    padding-bottom: 15px;
    
 }
 
@@ -56,6 +87,7 @@ figcaption:hover{
     
 display: inline-flex;
 column-gap: 5px;
+
 }
 
 
@@ -69,16 +101,24 @@ column-gap: 5px;
 .days{
     grid-area: days;
     color:hsl(215, 51%, 70%);
+    padding-right: 20px;
 }
 
 
 #footer{
     display: inline-flex;
+    align-self: flex-start;
     color: hsl(215, 51%, 70%);
+    padding-left: 15px;
     column-gap:10px;
+    padding-bottom: 50px;
 }
 
-
+hr{
+    border: solid  hsl(215, 51%, 70%);
+    border-top: 2px;
+    width:95%;
+}
 
 
 .creator-img{
@@ -94,4 +134,10 @@ column-gap: 5px;
 
 .creator:hover{
     color:hsl(178, 100%, 50%);
+}
+
+
+/*mobile*/
+@media screen and (max-width:400px) {
+    
 }
