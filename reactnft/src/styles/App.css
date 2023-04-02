@@ -1,0 +1,97 @@
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*desktop*/
+
+.main-app{
+    background-color:hsl(217, 54%, 11%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+
+figure>img{
+    height:200px;
+   width:200px;
+}
+
+
+
+figcaption{
+    color:hsl(0, 0%, 100%);
+}
+
+
+figcaption:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+
+
+
+#description{
+    display: grid;
+    grid-template-areas:
+    "p p"
+    "ETH days";
+}
+
+
+
+
+#description>p{
+    color:hsl(215, 51%, 70%);
+   
+}
+
+
+
+.ETH,.days{
+    
+display: inline-flex;
+column-gap: 5px;
+}
+
+
+.ETH{
+    grid-area: ETH;
+    color:hsl(178, 100%, 50%);
+    padding-left: 35px;
+
+}
+
+.days{
+    grid-area: days;
+    color:hsl(215, 51%, 70%);
+}
+
+
+#footer{
+    display: inline-flex;
+    color: hsl(215, 51%, 70%);
+    column-gap:10px;
+}
+
+
+
+
+.creator-img{
+    height: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.creator{
+    color: hsl(0, 0%, 100%);
+}
+
+
+.creator:hover{
+    color:hsl(178, 100%, 50%);
+}
