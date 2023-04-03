@@ -25,7 +25,7 @@ function Card() {
                     <div id='description' className='card-con'>
 
                           
-                          <p>Our Equilibrium collection promotes balance and calm</p>
+                          <p>Our Equilibrium collection promotes balance and calm.</p>
                          
                           <br/>
 
